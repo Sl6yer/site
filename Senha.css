@@ -1,0 +1,83 @@
+body{
+    background-color: #00DBDE;
+    background-image: linear-gradient(90deg, #00DBDE 0%, #FC00FF 100%); 
+}
+
+.container{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    height: 400px;
+    border-radius: 10px;
+    text-align: center;
+    padding: 10px;
+}
+
+h1{
+    font-family: 'Poppins', sans-serif;
+}
+
+p{
+    margin-top: 0;
+    font-family: 'Raleway', sans-serif;
+}
+
+input{
+    padding: 7px;
+    margin-top: 10px;
+    border-radius: 4px;
+    border-color: white;
+    box-shadow: 1px 1px ;
+}
+
+input:focus{
+   outline: none;
+}
+
+button{
+    width: 250px;
+    margin-left: 70px;
+    margin-top: 40px;
+    height: 30px;
+    border: transparent;
+    border-radius: 10px;
+    font-family: 'Raleway', sans-serif;
+    background-image: linear-gradient(to right, #DA22FF 0%, #9733EE  51%, #DA22FF  100%);
+    color: white;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+    transition: 1s;
+}
+
+.erro1{
+    display: none;
+    color: red;
+    font-family: 'Poppins', sans-serif;
+    margin-right: 290px;
+}
+
+.erro2{
+    display: flex;
+    display: none;
+    color: red;
+    font-family: 'Poppins', sans-serif;
+    margin-right: 200px;
+}
+
+.erro3{
+    display: flex;
+    display: none;
+    color: red;
+    font-family: 'Poppins', sans-serif;
+    margin-right: 200px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
